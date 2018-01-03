@@ -1,4 +1,4 @@
-package use.dssbutils.maven;
+package use.dssbutils.gradle;
 
 import dssb.utils.common.Nulls;
 import lombok.val;

@@ -5,7 +5,7 @@ apply plugin: 'eclipse'
 repositories {
     jcenter()
     maven {
-        url 'https://raw.githubusercontent.com/DSSB/maven-repository/master/'
+        url 'https://raw.githubusercontent.com/dssb/maven-repository/master/'
     }
 }
 
