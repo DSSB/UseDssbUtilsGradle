@@ -10,9 +10,11 @@ repositories {
 }
 
 dependencies {
+    compileOnly 'org.projectlombok:lombok:1.16.16'
+    
     compile 'org.slf4j:slf4j-api:1.7.21'
     
-    compile 'dssb-utils:utils-common:1.0.0'
+    compile 'dssb-utils:dssb-utils-common:2.0.0'
 
     testCompile 'junit:junit:4.12'
 }
