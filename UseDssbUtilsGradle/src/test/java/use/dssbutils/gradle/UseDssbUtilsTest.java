@@ -1,15 +1,15 @@
 package use.dssbutils.gradle;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import dssb.utils.common.Nulls;
+import dssb.utils.common.UNulls;
 import lombok.val;
 import lombok.experimental.ExtensionMethod;
 
 @SuppressWarnings("javadoc")
-@ExtensionMethod({ Nulls.class })
+@ExtensionMethod({ UNulls.class })
 public class UseDssbUtilsTest {
     
     @Test
